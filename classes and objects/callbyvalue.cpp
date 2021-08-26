@@ -70,3 +70,9 @@ int main(){
     printvalues(tm2); //?object passed to non-member funtion
     return 0;
 }
+//! Explanation
+/*
+The above program after declaring the class Time, its member functions and nommember functions, first creates two objects tm1 and tm2 of Time type. The data members of tm1 and tm2 are given values using function gettime(). Then tm2 time is converted to hours format or am/pm format depending upon user's choice (function call tm1.convert (tm2, ch); ). Then sum of the two times tm1 and tm2 is displayed by invoking function sum() and passing objects tm1 & tm2 to it. Then a nonmember function prnvalues() is invoked to print data values of tm2. The functions convert() (a member function) and sum() will give the desired performance as they can access all the data members of tm1 and tm2 but prnvalues() (non-member function) will only be able to print tot_secs of tm2 as other members being private are hidden from prnvalue().
+
+As you have seen in the above program that objects can be passed by value. Following program (program 4.6) passes objects by reference to functions. As you can make out that this time objects are passed by reference. In the following program, certain changes have been introduced to facilitate the Call by Reference mechanism.
+*/
