@@ -20,7 +20,7 @@ public:
 };
 
 const int size = 5;
-Item order[size]; //? See an object rray namely order of item class type has been created here
+Item order[size]; //? See an object array namely order of item class type has been created here
 
 int main(){
     int ino,a;
@@ -28,7 +28,7 @@ int main(){
     //get values for all items
     for(a = 0; a<size; ++a)
     {
-        cout<<"Enter itemno && proce for the item"<< a + 1 <<"\n";
+        cout<<"Enter itemno && price for the item"<< a + 1 <<"\n";
         cin>>ino>>cost;
         order[a].getdata(ino,cost); //invoking gtedata() for a particular
     }                              // object with the given values
