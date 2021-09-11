@@ -34,6 +34,6 @@ int main(){
                 break;
         default: cout<<"\n"<<"Wrong operator"<<"\n";
     }
-    cout<<"The calculation resulr is:"<<res<<"\n";
+    cout<<"The calculation result is:"<<res<<"\n";
     return 0;
 }
