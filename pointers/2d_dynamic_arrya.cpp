@@ -26,7 +26,7 @@ int main(){
             Csum[j] += Val[i * MaxC + j];
         }
     }
-    cout<<"\n\\n The give arry along with Rowsum and Colsum is: \n\n";
+    cout<<"\n\\n The give array along with Rowsum and Colsum is: \n\n";
 
     for(i=0;i<MaxR;++i)
     {
