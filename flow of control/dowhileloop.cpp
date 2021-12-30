@@ -34,7 +34,7 @@ int main(){
       } //end the switch
       cout<<"\n Want to enter more (y/n)";
       cin>>ch1;
-      if(ch1 == 'y' || ch == 'Y')
+      if(ch1 == 'y' || ch1 == 'Y')
             cout<<"Again enter choice (1-4):";
   }while(ch1=='y'||ch1=='Y'); // end of do-while loop
   return 0;
