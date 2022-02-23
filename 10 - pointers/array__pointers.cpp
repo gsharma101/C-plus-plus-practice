@@ -15,5 +15,5 @@ int main(){
     return 0;
 }
 // ! Explanantion
-// In the above given code a ia apointer to integer and age is an array holding 10 integers. The pointer a is made to point
+// In the above given code is a apointer to integer and age is an array holding 10 integers. The pointer a is made to point
 // to wherre age is pointing to. When the data value of these pointers are printed both the value comes out to be the same

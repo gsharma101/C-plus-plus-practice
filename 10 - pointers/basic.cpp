@@ -7,7 +7,8 @@ int main(){
     int val = 25;
     int *ptr = &val;
     cout<<ptr<<"\n";
-    cout<<*ptr;
+    cout<<*ptr<<"\n";
+    cout<<&val<<"\n";
     // If we print ptr then the output will be address of variable val
     // If we print val then then the output will be 25
     // If we print *ptr then the output will be 25 this is called dereferencing

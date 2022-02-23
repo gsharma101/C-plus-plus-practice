@@ -1,7 +1,7 @@
 #include <bits\stdc++.h>
 using namespace std;
-
-int add(int a,int b){
+// Function Defination
+void add(int a, int b){
     cout<< a + b;
 }
 
